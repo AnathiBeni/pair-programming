@@ -55,42 +55,40 @@ ul li a{
  }
 
   ul li a:hover{
-    color:yellow;
+    color:green;
 
  }
  
- a:about{
+ .about{
     display: flex;
-    flex-direction: column;
     width: 100%;
     margin: 0vh;
     height: 100%;
     justify-content: center;
-
-   
-
- }
+}
  .homesection{
    display: flex;
+   flex-direction: column-reverse;
    width: 100%;
    height: 100%;
    align-items: center;
    justify-content: center;
    padding: 1em;
    margin: center;
+   
       
  }
- .servicesection:service-card{
+ .servicesection:service{
    display: flex;
-   flex-direction: column;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-evenly;
    padding: 1em;
    margin: center;
+   width: 100%;
+   height: 100%;
+   border-radius: black ;
 
 
  }
- .service id{
-   border-radius: black;
- }
+ 
  
