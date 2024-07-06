@@ -1,0 +1,96 @@
+body{
+   background-color: rgb(206, 255, 127);
+   margin: 0;
+   padding: 0;
+}
+
+
+*{
+   box-sizing: border-box;
+ }
+
+ header{
+    background-color:wheat;
+    padding: 1rem;
+    text-align: center;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin:auto;
+    
+ }
+
+ nav{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: center;
+    padding: 1em;
+    height: 100vh;
+
+ }
+ ul{
+   display: flex;
+ }
+
+ ul li{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin:0;
+    width: 100vw;
+   
+ }
+
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:blue;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+ }
+
+  ul li a:hover{
+    color:yellow;
+
+ }
+ 
+ a:about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0vh;
+    height: 100%;
+    justify-content: center;
+
+   
+
+ }
+ .homesection{
+   display: flex;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   padding: 1em;
+   margin: center;
+      
+ }
+ .servicesection:service-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 1em;
+   margin: center;
+
+
+ }
+ .service id{
+   border-radius: black;
+ }
+ 
